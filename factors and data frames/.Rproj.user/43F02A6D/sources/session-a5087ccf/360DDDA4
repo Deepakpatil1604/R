@@ -1,0 +1,26 @@
+{
+    "id": "360DDDA4",
+    "path": "~/dc_genomics_r/genomics_r_basics.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1755496217640.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "103,0",
+        "scrollLine": "72"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1756095553,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1756099763646,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,51 @@
+getwd()
+# this command shows the current working directory
+getwd()
+# this command shows the current working directory
+setwd("/home/mlsc-clab/dc_genomics_r")
+first_value <- 1
+human_chr_number <- 23
+gene_name <- 'pten'
+ensemble_url <- 'http://ftp.ensemblgenomes.org/pub/bacteria/release-39/fasta/bacteria_5_collection/escherichia_coli_b_str_rel606/'
+human_diploid_chr_num <-  2 * human_chr_number
+chromosome_name <- 'chr02' <- 0.47
+chr_position <- '1001701'
+spock <- TRUE
+pilot <- Earhart
+#creating a snp gene name vector
+snp_genes <- c("OXTR", "ACTN3", "AR", "OPRM1")
+snps <- c("rs53576", "rs1815739", "rs6152", "rs1799971")
+snp_chromosomes <- c("3", "11", "X", "6")
+snp_positions <- c(8762685, 66560624, 67545785, 154039662)
+snp_genes <- c(snp_genes, "CYP1A1", "APOA5")
+snp_positions[snp_positions > 100000000]
+snp_positions > 100000000
+snp_positions[c(FALSE, FALSE, FALSE, TRUE)]
+snp_marker_cutoff <- 100000000
+snp_positions[snp_positions > snp_marker_cutoff]
+c("ACTN3","APOA5", "actn3") %in% snp_genes
+combined <- c(snp_genes[1], snps[1], snp_chromosomes[1], snp_positions[1])
+snp_data <- list(genes = snp_genes,
+                 refference_snp = snps,
+                 chromosome = snp_chromosomes,
+                 position = snp_positions).
+variants <- read.csv ("/home/mlsc-clab/dc_genomics_r/combined_tidy_vcf.csv")
+summary(variants)
+subset <- data.frame(variants [c(1:3,6)])
+str(subset)
+mode(variants)
+class(variants)
+alt_alleles <- subset$ALT
+head(alt_alleles)
+alt_alleles == "A"
+alt_alleles[alt_alleles =="A"]
+snps <- c(alt_alleles[alt_alleles == "A"],
+          alt_alleles[alt_alleles=="T"],
+          alt_alleles[alt_alleles=="G"],
+          alt_alleles[alt_alleles=="C"])
+plot(snps)
+str(snps)
+factor_snps <- factor(snps)
+str(factor_snps)
+summary(factor_snps)
+summary(snps)

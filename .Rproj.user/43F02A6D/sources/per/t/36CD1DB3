@@ -1,0 +1,24 @@
+{
+    "id": "36CD1DB3",
+    "path": "~/dc_genomics_r/combined_tidy_vcf.csv",
+    "project_path": "combined_tidy_vcf.csv",
+    "type": "text",
+    "hash": "1575398938",
+    "contents": "",
+    "dirty": false,
+    "created": 1756101346916.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1755495010,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1755495010,
+    "read_only": false,
+    "read_only_alternatives": []
+}
